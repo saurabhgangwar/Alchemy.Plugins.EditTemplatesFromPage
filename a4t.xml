@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.alchemywebstore.com/">
+  <name>EditTemplatesFromPage</name>
+  <description><![CDATA[This plugin places Edit Link Buttons to edit page and component templates from the page.]]></description>
+  <settings>
+  </settings>
+</plugin>

@@ -1,0 +1,38 @@
+﻿/**
+ * Example of how to use tokens to resolve url's to resources in your plugin.
+ * ${ImgUrl}
+ * ${CssUrl}
+ * ${JsUrl}
+ * ...
+ */
+.editTemplateFromPagePluginButton {
+  min-width: 0;
+ width: 18px;
+ height: 18px;
+ border: 1px solid #AAA;
+ border-radius: 3px;
+ background-color: #E2E2E2;
+ background-repeat: no-repeat;
+ background-position: center;
+padding: 1px 0;
+cursor: pointer;
+float: right;
+}
+
+.editButton {
+background-image: url('${ImgUrl}AlchemyPluginEditTempFromPageEdit.png');
+}
+
+.editTemplateFromPagePluginButton:hover {background-color: #F4F4F4;  border: 1px solid #000000; }
+
+
+.pageTemplate{
+width: 16px;
+height: 16px;
+float: left;
+}
+
+
+
+
+
